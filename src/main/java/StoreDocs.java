@@ -12,7 +12,7 @@ import java.net.URL;
 public class StoreDocs {
 
 
-    public static void store_docs(Integer id) throws ApiException {
+    public static void store_docs(String folderPath, Integer id) throws ApiException {
         Document doc = GutenbergApi.document(id);
         String url_download = "";
         for (int j = 0; j< doc.resources.size(); j++){
@@ -21,7 +21,7 @@ public class StoreDocs {
             }
         }
         try (BufferedInputStream inputStream = new BufferedInputStream(new URL(url_download).openStream());
-             FileOutputStream fileOS = new FileOutputStream("C:/Users/andre/Desktop/Andre Uni/Tercero/BD/docs/file_" + id +".txt")) {
+             FileOutputStream fileOS = new FileOutputStream(folderPath + "file_" + id +".txt")) {
             byte data[] = new byte[1024];
             int byteContent;
             while ((byteContent = inputStream.read(data, 0, 1024)) != -1) {
