@@ -12,16 +12,20 @@ public class Main {
 
     public static void main(String[] args) throws ApiException {
         GutenbergApi.init();
-        new Timer().schedule(new TimerTask() {
+        Timer timer = new Timer();
+        TimerTask task = new TimerTask() {
+            public int i = 25000;
             @Override
             public void run() {
+                try {
+                    StoreDocs.store_docs(args[DOCUMENT_STORE_PATH], i++);
+                } catch (ApiException e) {
+                    e.printStackTrace();
+                }
 
             }
-        });
-
-        System.out.println(args[DOCUMENT_STORE_PATH]);
-
-        StoreDocs.store_docs(args[DOCUMENT_STORE_PATH], 27841);
+        };
+        timer.schedule(task, 2000, 60000);
 
 
     }
