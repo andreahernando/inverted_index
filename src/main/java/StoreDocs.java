@@ -27,7 +27,7 @@ public class StoreDocs {
             }
         }
         try (BufferedInputStream inputStream = new BufferedInputStream(new URL(url_download).openStream());
-             FileOutputStream fileOS = new FileOutputStream(formatdate+".txt")) {
+             FileOutputStream fileOS = new FileOutputStream(folderPath+formatdate+".txt")) {
             byte data[] = new byte[1024];
             int byteContent;
             while ((byteContent = inputStream.read(data, 0, 1024)) != -1) {
