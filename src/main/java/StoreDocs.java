@@ -1,4 +1,4 @@
-import Model.Document;
+import Model.Metadata;
 import api.ApiException;
 import api.GutenbergApi;
 
@@ -8,15 +8,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class StoreDocs {
 
-
     public static void store_docs(String folderPath, Integer id) throws ApiException {
-        Document doc = GutenbergApi.document(id);
+        Metadata doc = GutenbergApi.document(id);
         String url_download = "";
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter mydate = DateTimeFormatter.ofPattern("yyyyMMdd HHmm");
