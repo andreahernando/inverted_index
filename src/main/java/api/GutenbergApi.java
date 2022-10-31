@@ -28,7 +28,7 @@ public class GutenbergApi {
         try {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() != HTTP_OK) throw new ApiException(response.statusCode(), response.body());
-            //System.out.println(response.body());
+            System.out.println(response.body());
             return Json.fromJson(response.body(), Metadata.class);
 
         } catch (IOException | InterruptedException e) {

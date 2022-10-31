@@ -24,6 +24,7 @@ public class StoreDocs {
                 url_download = doc.resources.get(j).uri;
             }
         }
+
         try (BufferedInputStream inputStream = new BufferedInputStream(new URL(url_download).openStream());
              FileOutputStream fileOS = new FileOutputStream(folderPath+formatdate+".txt")) {
             byte data[] = new byte[1024];
