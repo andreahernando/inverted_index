@@ -1,19 +1,19 @@
 import Model.Metadata;
+import Model.SplitText;
 import api.ApiException;
 import api.GutenbergApi;
 
-import java.io.BufferedInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Scanner;
 
 public class StoreDocs {
 
-    public static void store_docs(String folderPath, Integer id) throws ApiException {
+    public void store_docs(String folderPath, Integer id) throws ApiException {
         Metadata doc = GutenbergApi.document(id);
         String url_download = "";
         LocalDateTime date = LocalDateTime.now();
@@ -32,6 +32,15 @@ public class StoreDocs {
             while ((byteContent = inputStream.read(data, 0, 1024)) != -1) {
                 fileOS.write(data, 0,byteContent);
             }
+            URL furl = new URL(url_download);
+            BufferedReader in  = new BufferedReader(new InputStreamReader(furl.openStream()));
+            String content = "";
+            String linea;
+            while ((linea = in.readLine()) != null) {
+                content += linea + "\n";
+            }
+            in.close();
+            SplitText.spliText(content);
             System.out.println("Hecho");
         } catch (MalformedURLException e) {
             e.printStackTrace();

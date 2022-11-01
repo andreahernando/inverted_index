@@ -4,9 +4,13 @@ package Model;
 //import java.io.FileOutputStream;
 //import java.io.ObjectOutputStream;
 
-public class Deserializer {
+import java.util.List;
 
-    public static void deserializer() {
+public class SplitText {
+
+    public static void spliText(String str) {
+        List<String> parts = List.of(str.split("\\*\\*\\*"));
+        System.out.println(parts.get(2));
         //try {
             //String[] parts = string.split("-");
             //FileOutputStream fos = new FileOutputStream(fileOS);
@@ -17,5 +21,7 @@ public class Deserializer {
         //} catch (IOException ioe) {
             //ioe.printStackTrace();
         //}
+
+
     }
 }
