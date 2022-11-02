@@ -2,7 +2,7 @@ package Model;
 
 import java.util.List;
 
-public class GutenbergDocumentBuilder implements DocumentBuilder {
+public class GutenbergDocumentBuilder {
 
     private List<String> arrayText;
 
