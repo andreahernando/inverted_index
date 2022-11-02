@@ -4,7 +4,7 @@ package Model;
 //import java.io.FileOutputStream;
 //import java.io.ObjectOutputStream;
 
-import invertedIndex.InvertedIndex;
+import api.InvertedIndex;
 
 import java.io.IOException;
 import java.util.List;
