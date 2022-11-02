@@ -1,4 +1,4 @@
-package api;
+package InvertedIndex;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,8 +6,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class InvertedIndex {
-    public static void invertedIndex(String str) throws IOException {
-        Map<String, HashSet<Integer>> wordDocMap = new HashMap<String, HashSet<Integer>>();
+    public static Map<String, HashSet<Integer>> invertedIndex(String str) throws IOException {
+
         String str2 = str.replaceAll("\\p{Punct}", ""); //remove punctuation from String
         List<String> stopwords = Files.readAllLines(Paths.get("C:\\Users\\andre\\Desktop\\Andre Uni\\Tercero\\BD\\english_stopwords.txt")); //remove stopwords
         String[] lines = str2.split("\n");
@@ -16,20 +16,18 @@ public class InvertedIndex {
         for (String linea : lines) {
             for (String word : linea.split(" ")) {
                 if (!stopwords.contains(word.toLowerCase(Locale.ROOT))) {
-                    if (!wordDocMap.containsKey(word.toLowerCase())) {
-                        wordDocMap.put(word.toLowerCase(), new HashSet<Integer>() );
+                    if (!StoreIndex.inverted.containsKey(word.toLowerCase())) {
+                        StoreIndex.inverted.put(word.toLowerCase(), new HashSet<Integer>() );
                     }
-                    wordDocMap.get(word.toLowerCase()).add(line);
+                    StoreIndex.inverted.get(word.toLowerCase()).add(line);
                 }
             }
             line += 1;
         }
-        wordDocMap.remove("");
-        System.out.println(wordDocMap);
+        StoreIndex.inverted.remove("");
+        System.out.println(StoreIndex.inverted);
+        return StoreIndex.inverted;
 
-        //Map<String, List<Integer>> inverted = new HashMap<String, List<Integer>>();
-        //for (Map.Entry me: inverted.entrySet()) {
-        //}
 
     }
 }
