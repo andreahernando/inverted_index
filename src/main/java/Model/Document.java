@@ -1,12 +1,24 @@
 package Model;
-import java.util.List;
 
 public class Document {
-    public Integer id;
-    public String type;
-    public String title;
-    public String description;
-    public String license;
-    public List<String> subjects;
-    public List<Resource> resources;
+    public String metadata;
+    public String content;
+
+    public String getMetadata() {
+        return metadata;
+    }
+
+    public Document setMetadata(String metadata) {
+        this.metadata = metadata;
+        return this;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public Document setContent(String content) {
+        this.content = content;
+        return this;
+    }
 }

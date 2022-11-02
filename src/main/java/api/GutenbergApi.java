@@ -1,7 +1,7 @@
 package api;
 
 import Serialize.Json;
-import Model.Document;
+import Model.Metadata;
 
 import java.io.IOException;
 import java.net.URI;
@@ -19,7 +19,7 @@ public class GutenbergApi {
         client = HttpClient.newHttpClient();
     }
 
-    public static Document document(Integer id) throws ApiException{
+    public static Metadata document(Integer id) throws ApiException{
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://gnikdroy.pythonanywhere.com/api/book/" + id + "/"))
                 .GET()
@@ -29,7 +29,7 @@ public class GutenbergApi {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() != HTTP_OK) throw new ApiException(response.statusCode(), response.body());
             //System.out.println(response.body());
-            return Json.fromJson(response.body(), Document.class);
+            return Json.fromJson(response.body(), Metadata.class);
 
         } catch (IOException | InterruptedException e) {
             throw new ApiException(500, e.getMessage());

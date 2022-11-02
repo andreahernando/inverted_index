@@ -7,9 +7,6 @@ import com.google.gson.GsonBuilder;
 public class Json {
     private static final Gson GsonInstance = createGsonInstance();
 
-    public static String toJson(Object object) {
-        return GsonInstance.toJson(object);
-    }
 
     public static <T> T fromJson(String json, Class<T> type) {
         return GsonInstance.fromJson(json, type);
