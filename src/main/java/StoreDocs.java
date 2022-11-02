@@ -41,7 +41,6 @@ public class StoreDocs {
             }
             in.close();
             SplitText.spliText(content);
-            System.out.println("Hecho");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
