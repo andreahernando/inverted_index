@@ -1,7 +1,7 @@
 package Model;
 import java.util.List;
 
-public class Metadata {
+public abstract class Metadata {
     public Integer id;
     public String type;
     public String title;
@@ -9,6 +9,9 @@ public class Metadata {
     public String license;
     public List<String> subjects;
     public List<Resource> resources;
+
+    public Metadata(String s) {
+    }
 
     public Integer getId() {
         return id;
@@ -72,4 +75,6 @@ public class Metadata {
         this.resources = resources;
         return this;
     }
+
+    public abstract Metadata extractMetadata();
 }

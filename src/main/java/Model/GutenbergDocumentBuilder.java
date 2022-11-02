@@ -10,16 +10,21 @@ public class GutenbergDocumentBuilder implements DocumentBuilder {
         this.arrayText = arrayText;
     }
 
-    /*public Document build() {
+    public Document build() {
         Document document = new Document();
-        //Metadata metadata = new GutenbergMetadataBuilder(this.arrayText.get(0));
-        //document.setMetadata(metadata)
-        //        .setContent(this.extractContent());
-        //return document;
+        Metadata metadata = new Metadata(this.arrayText.get(0)) {
+            @Override
+            public Metadata extractMetadata() {
+                return null;
+            }
+        };
+        document.setMetadata(metadata)
+                .setContent(this.extractContent());
+        return document;
     }
 
     private String extractContent() {
-        String content = this.arrayText[2];
+        String content = this.arrayText.get(2);
         return content;
-    }*/
+    }
 }

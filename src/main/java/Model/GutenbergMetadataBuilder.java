@@ -1,7 +1,13 @@
 package Model;
 
+
 public class GutenbergMetadataBuilder {
 
-    public GutenbergMetadataBuilder(String s) {
+    private String content;
+
+    public GutenbergMetadataBuilder(String content) {
+        super();
+        this.content = content;
     }
+
 }
