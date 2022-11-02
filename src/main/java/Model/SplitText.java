@@ -13,6 +13,7 @@ public class SplitText {
 
     public static void spliText(String str) throws IOException {
         List<String> parts = List.of(str.split("\\*\\*\\*"));
+        GutenbergDocumentBuilder gutenbergDocumentBuilder = new GutenbergDocumentBuilder(parts);
         InvertedIndex.invertedIndex(parts.get(2));
         //try {
             //String[] parts = string.split("-");

@@ -1,7 +1,4 @@
 package Model;
 
-public class DocumentBuilder {
-    public static void main(String[] args) {
-
-    }
+public interface DocumentBuilder {
 }
