@@ -15,16 +15,16 @@ public class InvertedIndex {
         Integer line = 1;
         for (String linea : lines) {
             for (String word : linea.split(" ")) {
-                if (!stopwords.contains(word)) {
-                    if (!wordDocMap.containsKey(word)) {
-                        wordDocMap.put(word, new HashSet<Integer>() );
+                if (!stopwords.contains(word.toLowerCase(Locale.ROOT))) {
+                    if (!wordDocMap.containsKey(word.toLowerCase())) {
+                        wordDocMap.put(word.toLowerCase(), new HashSet<Integer>() );
                     }
-                    wordDocMap.get(word).add(line);
+                    wordDocMap.get(word.toLowerCase()).add(line);
                 }
             }
             line += 1;
         }
-
+        wordDocMap.remove("");
         System.out.println(wordDocMap);
 
         //Map<String, List<Integer>> inverted = new HashMap<String, List<Integer>>();
