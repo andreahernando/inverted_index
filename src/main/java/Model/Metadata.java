@@ -10,9 +10,6 @@ public abstract class Metadata {
     public List<String> subjects;
     public List<Resource> resources;
 
-    public Metadata(String s) {
-    }
-
     public Integer getId() {
         return id;
     }

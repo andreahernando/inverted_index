@@ -1,6 +1,5 @@
 package Model;
 
-
 public class GutenbergMetadataBuilder {
 
     private String content;
@@ -9,5 +8,4 @@ public class GutenbergMetadataBuilder {
         super();
         this.content = content;
     }
-
 }

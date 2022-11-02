@@ -1,14 +1,14 @@
 package Model;
 
 public class Document {
-    public Metadata metadata;
+    public String metadata;
     public String content;
 
-    public Metadata getMetadata() {
+    public String getMetadata() {
         return metadata;
     }
 
-    public Document setMetadata(Metadata metadata) {
+    public Document setMetadata(String metadata) {
         this.metadata = metadata;
         return this;
     }
