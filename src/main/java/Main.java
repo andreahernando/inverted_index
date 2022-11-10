@@ -1,8 +1,7 @@
 
-import api.ApiException;
-import api.GutenbergApi;
+import org.bigdata.saxodb.api.ApiException;
+import org.bigdata.saxodb.api.GutenbergApi;
 
-import java.net.MalformedURLException;
 import java.util.Timer;
 import java.util.TimerTask;
 
