@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Crawler_api" />
-        <module name="inverted_index" />
+        <module name="indexer" />
+        <module name="crawler" />
+        <module name="engine" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,15 +1,13 @@
-import Model.Metadata;
-import Model.SplitText;
-import api.ApiException;
-import api.GutenbergApi;
+import org.bigdata.saxodb.model.Metadata;
+import org.bigdata.saxodb.model.SplitText;
+import org.bigdata.saxodb.api.ApiException;
+import org.bigdata.saxodb.api.GutenbergApi;
 
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
-import java.util.Scanner;
 
 public class StoreDocs {
 
