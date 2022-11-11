@@ -27,6 +27,8 @@ This function builds a word-level inverted index from a collection of documents.
 
 The Crawler module download a document every minute from Project Gutenberg and store it in the Document Repository. The organization of the Document Repository is chronological with a folder for each date using the format yyyymmdd. This part have been developed using Java.
 
+### SEARCH ENGINE
+
 ## THE WORK ENVIRONMENT
 
 To develop the inverted index task we used Pycharm, from JetBrains, using Python 3.9 and 3.10.
