@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeSet;
 
-public class TextInvertedIndex {
+public class TextInvertedIndex implements InvertedIndex{
     public Map<String, TreeSet<String>> inverted(List<String> words, String docid, Map<String, TreeSet<String>> inverted) {
         words.forEach(w->{
             if (!inverted.containsKey(w)) {

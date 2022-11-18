@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DocumentAnalyser {
+public class TextAnalyser implements Analyser{
     public List<String> analyse(List<String> words) {
         List<String> finaltxt = new ArrayList<String>();
         words.forEach(w -> {
