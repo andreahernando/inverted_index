@@ -1,8 +1,10 @@
 package org.bigdata.saxodb.crawler;
 
+import java.io.FileNotFoundException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Downloader downloader = new GutenbergDownloader();
         Parser parser = new GutenbergParser();
         Datalake datalake = new FileSystemDatalake();
@@ -11,6 +13,7 @@ public class Main {
         for (String id : ids) {
             task.download(id);
         }
+
 
     }
 }
