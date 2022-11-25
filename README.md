@@ -29,10 +29,12 @@ The Crawler module download a document every minute from Project Gutenberg and s
 
 ### SEARCH ENGINE
 
+It consists in developing the search engine API. To develop this module, we have build a mock word-level inverted index, design API inputs (parameters) and outputs (jsons), and deserialize the index from disk. As the previous part, this has also been performed using Java.
+
 ## THE WORK ENVIRONMENT
 
 To develop the inverted index task we used Pycharm, from JetBrains, using Python 3.9 and 3.10.
-To develop the crawler development we used IntelliJ IDEA, from JetBrains, using Java in its 11th version.
+To develop the crawler development, search engine, and future tasks, we will be using IntelliJ IDEA, from JetBrains, with Java in its 11th version.
 
 ## THE DEVELOPMENT TEAM
 
