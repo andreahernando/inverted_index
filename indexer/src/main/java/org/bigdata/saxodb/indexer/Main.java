@@ -12,7 +12,7 @@ public class Main {
         String docid = "doc1";
         Tokenizer tokenizer = new DocumentTokenizer();
         Analyser analyser = new TextAnalyser();
-        InvertedIndex invertedIndex = new TextInvertedIndex();
+        InvertedBuilder invertedIndex = new TextInvertedIndex();
         Datamart datamart = new InvertedIndexDatamart();
 
         IndexerTask task = new IndexerTask(tokenizer, analyser, invertedIndex, datamart);

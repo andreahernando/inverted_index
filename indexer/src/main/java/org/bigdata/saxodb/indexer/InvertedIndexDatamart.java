@@ -6,6 +6,7 @@ import java.util.TreeSet;
 public class InvertedIndexDatamart implements Datamart{
     @Override
     public void store(Map<String, TreeSet<String>> invertedindex) {
+
         System.out.println(invertedindex);
     }
 }

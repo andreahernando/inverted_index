@@ -1,5 +1,7 @@
 package org.bigdata.saxodb.crawler;
 
+import java.io.IOException;
+
 public class CrawlerTask {
     private final Downloader downloader;
     private final Parser parser;
@@ -11,8 +13,11 @@ public class CrawlerTask {
         this.datalake = datalake;
     }
 
-    public void download(String id) {
-        datalake.store(parser.parse(downloader.download(id)));
+    public void download(String id) throws IOException {
+        String text = downloader.download(id);
+        Document doc = new DocumentBuilder(text).build();
+        datalake.store(doc);
+
 
     }
 

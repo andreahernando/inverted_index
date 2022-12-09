@@ -20,5 +20,6 @@ public class GutenbergDownloader implements Downloader {
         try (BufferedInputStream inputStream = new BufferedInputStream(url.openStream())) {
             return new String(inputStream.readAllBytes());
         }
+
     }
 }

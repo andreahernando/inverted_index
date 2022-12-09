@@ -7,10 +7,10 @@ import java.util.TreeSet;
 public class IndexerTask {
     private final Tokenizer tokenizer;
     private final Analyser analyser;
-    private final InvertedIndex invertedIndex;
+    private final InvertedBuilder invertedIndex;
     private final Datamart datamart;
 
-    public IndexerTask(Tokenizer tokenizer, Analyser analyser, InvertedIndex invertedIndex, Datamart datamart) {
+    public IndexerTask(Tokenizer tokenizer, Analyser analyser, InvertedBuilder invertedIndex, Datamart datamart) {
         this.tokenizer = tokenizer;
         this.analyser = analyser;
         this.invertedIndex = invertedIndex;
