@@ -11,6 +11,7 @@ public class DocumentBuilder implements Builder{
     public Document build() {
         Document doc = new Document();
         doc.setText(textParts[2]);
+
         return doc;
     }
 
