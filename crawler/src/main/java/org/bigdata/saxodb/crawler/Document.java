@@ -3,16 +3,16 @@ package org.bigdata.saxodb.crawler;
 import java.util.List;
 
 public class Document {
-    private String[] metadata;
+    private Metadata metadata;
     private String text;
 
 
-    public String[] getMetadata() {
+    public Metadata getMetadata() {
         return metadata;
     }
 
-    public void setMetadata(List<String> metadata) {
-        this.metadata = metadata.toArray(new String[0]);
+    public void setMetadata(Metadata metadata) {
+        this.metadata = metadata;
     }
 
     public String getText() {

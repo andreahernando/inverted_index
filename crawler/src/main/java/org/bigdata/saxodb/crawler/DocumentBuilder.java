@@ -21,7 +21,7 @@ public class DocumentBuilder implements Builder{
         return doc;
     }
 
-    public List<String> MetadataBuilder(String metadata) {
+    public Metadata MetadataBuilder(String metadata) {
         List<String> finalMetadata = new ArrayList<>();
         metadata_list = metadata.split("\n");
         for (int i = 1; i < metadata_list.length; i++) {
@@ -31,7 +31,8 @@ public class DocumentBuilder implements Builder{
             }
         }
 
-        return finalMetadata;
+        return new Metadata(finalMetadata.get(0), finalMetadata.get(1),finalMetadata.get(2)
+        ,finalMetadata.get(3),finalMetadata.get(4));
 
     }
 

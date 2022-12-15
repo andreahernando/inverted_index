@@ -1,11 +1,11 @@
 package org.bigdata.saxodb.crawler;
 
 public class Metadata {
-    private String title;
-    private String author;
-    private String language;
-    private String releaseDate;
-    private String postingDate;
+    public String title;
+    public String author;
+    public String language;
+    public String releaseDate;
+    public String postingDate;
 
     public Metadata(String title, String author,String language, String releaseDate, String postingDate) {
         this.title = title;
