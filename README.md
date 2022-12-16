@@ -25,7 +25,7 @@ This function builds a word-level inverted index from a collection of documents.
 
 ### CRAWLER DEVELOPMENT
 
-The Crawler module download a document every minute from Project Gutenberg and store it in the org.bigdata.saxodb.crawler.Document Repository. The organization of the org.bigdata.saxodb.crawler.Document Repository is chronological with a folder for each date using the format yyyymmdd. This part have been developed using Java.
+The Crawler module download a document every minute from Project Gutenberg and store it in the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document Repository. The organization of the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document Repository is chronological with a folder for each date using the format yyyymmdd. This part have been developed using Java.
 
 ### SEARCH ENGINE
 

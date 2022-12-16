@@ -1,5 +1,7 @@
 package org.bigdata.saxodb.crawler;
 
+import org.bigdata.saxodb.Document;
+
 public class GutenbergParser implements Parser {
     private String[] textParts;
 

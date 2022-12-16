@@ -1,4 +1,4 @@
-package org.bigdata.saxodb.crawler;
+package org.bigdata.saxodb;
 
 public class Metadata {
     public String title;

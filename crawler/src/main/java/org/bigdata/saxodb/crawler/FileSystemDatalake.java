@@ -1,5 +1,7 @@
 package org.bigdata.saxodb.crawler;
 
+import org.bigdata.saxodb.Document;
+
 import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

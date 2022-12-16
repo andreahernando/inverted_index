@@ -24,6 +24,7 @@ public class Main {
                     task.download(String.valueOf(num++));
                     System.out.println("Hecho");
                 } catch (IOException | SQLException e) {
+                    System.out.println("ERROOR");
                     cont++;
                     if(cont == 5) {
                         System.exit(0);

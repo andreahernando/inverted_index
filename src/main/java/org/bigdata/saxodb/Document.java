@@ -1,4 +1,4 @@
-package org.bigdata.saxodb.crawler;
+package org.bigdata.saxodb;
 
 import java.util.List;
 

@@ -1,5 +1,9 @@
 package org.bigdata.saxodb.crawler;
 
+
+import org.bigdata.saxodb.Document;
+import org.bigdata.saxodb.Metadata;
+
 import java.util.ArrayList;
 import java.util.List;
 

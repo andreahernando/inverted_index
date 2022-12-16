@@ -1,5 +1,7 @@
 package org.bigdata.saxodb.indexer;
 
+import org.bigdata.saxodb.Document;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

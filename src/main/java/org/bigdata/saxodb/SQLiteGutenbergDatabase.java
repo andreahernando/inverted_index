@@ -1,6 +1,8 @@
-package org.bigdata.saxodb.crawler;
+package org.bigdata.saxodb;
 
 
+
+import org.bigdata.saxodb.Metadata;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

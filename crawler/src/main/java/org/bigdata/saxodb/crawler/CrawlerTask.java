@@ -1,5 +1,9 @@
 package org.bigdata.saxodb.crawler;
 
+
+import org.bigdata.saxodb.Document;
+import org.bigdata.saxodb.SQLiteGutenbergDatabase;
+
 import java.io.IOException;
 import java.sql.SQLException;
 
