@@ -1,5 +1,7 @@
 package org.bigdata.saxodb.indexer;
 
+import java.io.File;
+
 public class Document {
     private String text;
 
@@ -15,5 +17,4 @@ public class Document {
         this.text = text;
         return this;
     }
-
 }

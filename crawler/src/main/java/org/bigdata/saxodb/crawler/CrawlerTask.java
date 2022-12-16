@@ -1,6 +1,7 @@
 package org.bigdata.saxodb.crawler;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class CrawlerTask {
     private final Downloader downloader;
@@ -13,9 +14,12 @@ public class CrawlerTask {
         this.datalake = datalake;
     }
 
-    public void download(String id) throws IOException {
+    public void download(String id) throws IOException, SQLException {
+        SQLiteGutenbergDatabase sqLiteGutenbergDatabase = new SQLiteGutenbergDatabase();
+        sqLiteGutenbergDatabase.init();
         String text = downloader.download(id);
         Document doc = new DocumentBuilder(text).build();
+        sqLiteGutenbergDatabase.insertMetadata(doc.getMetadata());
         datalake.store(doc);
 
 

@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class SQLiteGutenbergDatabase {
     private Connection conn;
     public Statement init() throws SQLException {
-        String dbPath = "C:/Users/cynth/IdeaProjects/inverted_index/crawler/src/main/java/org/bigdata/saxodb/crawler/table.db";
+        String dbPath = "C:\\Users\\andre\\IdeaProjects\\SaxoDB\\crawler\\src\\main\\java\\org\\bigdata\\saxodb\\crawler\\table.db";
         conn = connect(dbPath);
         Statement statement = conn.createStatement();
         createTable(statement);
@@ -39,9 +39,9 @@ public class SQLiteGutenbergDatabase {
         statement.execute("CREATE TABLE IF NOT EXISTS Metadata (" +
                 "title TEXT," +
                 "author TEXT," +
-                "language TEXT," +
                 "releaseDate TEXT," +
-                "postingDate TEXT" +
+                "postingDate TEXT," +
+                "language TEXT" +
                 ");");
     }
 }

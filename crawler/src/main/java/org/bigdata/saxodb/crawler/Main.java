@@ -2,6 +2,7 @@ package org.bigdata.saxodb.crawler;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -22,7 +23,7 @@ public class Main {
                 try {
                     task.download(String.valueOf(num++));
                     System.out.println("Hecho");
-                } catch (IOException e) {
+                } catch (IOException | SQLException e) {
                     cont++;
                     if(cont == 5) {
                         System.exit(0);
