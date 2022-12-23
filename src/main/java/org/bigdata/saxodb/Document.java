@@ -1,7 +1,5 @@
 package org.bigdata.saxodb;
 
-import java.util.List;
-
 public class Document {
     private Metadata metadata;
     private String text;

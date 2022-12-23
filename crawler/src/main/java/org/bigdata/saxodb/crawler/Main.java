@@ -24,7 +24,7 @@ public class Main {
                     task.download(String.valueOf(num++));
                     System.out.println("Hecho");
                 } catch (IOException | SQLException e) {
-                    System.out.println("ERROOR");
+                    System.out.println(e);
                     cont++;
                     if(cont == 5) {
                         System.exit(0);
@@ -33,7 +33,7 @@ public class Main {
                 }
             }
         };
-        timer.schedule(timertask,2000,60000);
+        timer.schedule(timertask,2000,6000);
     }
 
 

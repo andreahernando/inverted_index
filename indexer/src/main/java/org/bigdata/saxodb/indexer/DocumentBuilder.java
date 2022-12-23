@@ -16,6 +16,6 @@ public class DocumentBuilder extends Document {
         //String [] filesDocument = new File(path).list();
         Document doc = new Document().setText(filereader.read(new File(path)));
 
-        return doc;
+        return new Document();
     }
 }

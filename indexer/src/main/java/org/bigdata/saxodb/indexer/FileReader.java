@@ -14,6 +14,7 @@ public class FileReader {
         while (scanner.hasNextLine()){
             text.add(scanner.nextLine());
         }
+
         return text.toString();
     }
 }

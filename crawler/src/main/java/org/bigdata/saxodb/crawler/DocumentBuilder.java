@@ -10,7 +10,6 @@ import java.util.List;
 public class DocumentBuilder implements Builder{
     private String[] textParts;
     private String[] metadata_list;
-    private String metadata = "Title: El libro de la selva\nAuthor: Andrea Hernando\nLanguage: español";
 
     public DocumentBuilder(String text) {
         textParts = text.split("\\*\\*\\*");
@@ -36,7 +35,7 @@ public class DocumentBuilder implements Builder{
         }
         finalMetadata.forEach(System.out::println);
         return new Metadata(finalMetadata.get(0), finalMetadata.get(1),finalMetadata.get(2)
-        ,finalMetadata.get(3),finalMetadata.get(4));
+        ,finalMetadata.get(3),finalMetadata.get(finalMetadata.size()-1));
 
 
     }

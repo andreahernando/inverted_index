@@ -1,9 +1,5 @@
 package org.bigdata.saxodb;
 
-
-
-import org.bigdata.saxodb.Metadata;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -12,7 +8,7 @@ import java.sql.Statement;
 public class SQLiteGutenbergDatabase {
     private Connection conn;
     public Statement init() throws SQLException {
-        String dbPath = "C:\\Users\\andre\\IdeaProjects\\SaxoDB\\crawler\\src\\main\\java\\org\\bigdata\\saxodb\\crawler\\table.db";
+        String dbPath = "C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
         conn = connect(dbPath);
         Statement statement = conn.createStatement();
         createTable(statement);

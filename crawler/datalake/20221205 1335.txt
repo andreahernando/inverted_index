@@ -338,7 +338,7 @@ CHRONOLOGY OF THE HACKER CRACKDOWN
 July.  Secret Service covertly videotapes "SummerCon" hacker convention.
 
 September.  "Prophet" cracks BellSouth AIMSX computer network
-            and downloads E911 org.bigdata.saxodb.crawler.Document to his own computer and to Jolnet.
+            and downloads E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document to his own computer and to Jolnet.
 
 September.  AT&T Corporate Information Security informed of Prophet's action.
 
@@ -347,9 +347,9 @@ October.  Bellcore Security informed of Prophet's action.
 
 1989
 
-January.  Prophet uploads E911 org.bigdata.saxodb.crawler.Document to Knight Lightning.
+January.  Prophet uploads E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document to Knight Lightning.
 
-February 25.  Knight Lightning publishes E911 org.bigdata.saxodb.crawler.Document in PHRACK
+February 25.  Knight Lightning publishes E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document in PHRACK
               electronic newsletter.
 
 May.  Chicago Task Force raids and arrests "Kyrie."
@@ -5147,11 +5147,11 @@ wanderings through AIMSX, he decided to take it with him as a trophy.
 It might prove very useful in some future boasting, bragging,
 and strutting session.  So, some time in September 1988,
 Prophet ordered the AIMSX mainframe computer to copy this document
-(henceforth called simply called "the E911 org.bigdata.saxodb.crawler.Document") and to transfer
+(henceforth called simply called "the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document") and to transfer
 this copy to his home computer.
 
 No one noticed that Prophet had done this.  He had "stolen"
-the E911 org.bigdata.saxodb.crawler.Document in some sense, but notions of property
+the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document in some sense, but notions of property
 in cyberspace can be tricky.  BellSouth noticed nothing wrong,
 because BellSouth still had their original copy.  They had not
 been "robbed" of the document itself.  Many people were supposed
@@ -5164,17 +5164,17 @@ by telco employees.  But now the data had been copied
 by someone who wasn't supposed to look at it.
 
 Prophet now had his trophy.  But he further decided to store
-yet another copy of the E911 org.bigdata.saxodb.crawler.Document on another person's computer.
+yet another copy of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document on another person's computer.
 This unwitting person was a computer enthusiast named Richard Andrews
 who lived near Joliet, Illinois.  Richard Andrews was a UNIX programmer
 by trade, and ran a powerful UNIX board called "Jolnet," in the basement
 of his house.
 
 Prophet, using the handle "Robert Johnson," had obtained an account
-on Richard Andrews' computer.  And there he stashed the E911 org.bigdata.saxodb.crawler.Document,
+on Richard Andrews' computer.  And there he stashed the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document,
 by storing it in his own private section of Andrews' computer.
 
-Why did Prophet do this?  If Prophet had eliminated the E911 org.bigdata.saxodb.crawler.Document
+Why did Prophet do this?  If Prophet had eliminated the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 from his own computer, and kept it hundreds of miles away, on another machine, under an
 alias, then he might have been fairly safe from discovery and prosecution--
 although his sneaky action had certainly put the unsuspecting Richard Andrews
@@ -5183,7 +5183,7 @@ at risk.
 But, like most hackers, Prophet was a pack-rat for illicit data.
 When it came to the crunch, he could not bear to part from his trophy.
 When Prophet's place in Decatur, Georgia was raided in July 1989,
-there was the E911 org.bigdata.saxodb.crawler.Document, a smoking gun.  And there was Prophet
+there was the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, a smoking gun.  And there was Prophet
 in the hands of the Secret Service, doing his best to "explain."
 
 Our story now takes us away from the Atlanta Three and their raids
@@ -5450,13 +5450,13 @@ Phrack magazine.
 For reasons of his own, Richard Andrews had become suspicious
 of a new user called  "Robert Johnson."  Richard Andrews
 took it upon himself to have a look at what "Robert Johnson"
-was storing in Jolnet.  And Andrews found the E911 org.bigdata.saxodb.crawler.Document.
+was storing in Jolnet.  And Andrews found the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 "Robert Johnson" was the Prophet from the Legion of Doom,
-and the E911 org.bigdata.saxodb.crawler.Document was illicitly copied data from Prophet's
+and the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was illicitly copied data from Prophet's
 raid on the BellSouth computers.
 
-The E911 org.bigdata.saxodb.crawler.Document, a particularly illicit piece of digital property,
+The E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, a particularly illicit piece of digital property,
 was about to resume its long, complex, and disastrous career.
 
 It struck Andrews as fishy that someone not a telephone employee
@@ -5476,7 +5476,7 @@ Andrews was not prepared to ignore this sort of trouble.
 He thought it would be wise to pass the document along
 to a friend and acquaintance on the UNIX network, for consultation.
 So, around September 1988, Andrews sent yet another copy of the
-E911 org.bigdata.saxodb.crawler.Document electronically to an AT&T employee, one Charles Boykin,
+E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document electronically to an AT&T employee, one Charles Boykin,
 who ran a UNIX-based node called "attctc" in Dallas, Texas.
 
 "Attctc" was the property of AT&T, and was run from AT&T's
@@ -5527,20 +5527,20 @@ In 1989, a group of Texan UNIX professionals voted Boykin
 "System Administrator of the Year."  He was considered
 a fellow you could trust for good advice.
 
-In September 1988, without warning, the E911 org.bigdata.saxodb.crawler.Document
+In September 1988, without warning, the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 came plunging into Boykin's life, forwarded by Richard Andrews.
-Boykin immediately recognized that the org.bigdata.saxodb.crawler.Document was hot property.
+Boykin immediately recognized that the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was hot property.
 He was not a voice-communications man, and knew little about
 the ins and outs of the Baby Bells, but he certainly knew what
 the 911 System was, and he was angry to see confidential data
 about it in the hands of a nogoodnik.  This was clearly a
 matter for telco security.  So, on September 21, 1988, Boykin
-made yet ANOTHER copy of the E911 org.bigdata.saxodb.crawler.Document and passed this
+made yet ANOTHER copy of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document and passed this
 one along to a professional acquaintance of his, one Jerome Dalton,
 from AT&T Corporate Information Security.  Jerry Dalton was the
 very fellow who would later raid Terminus's house.
 
-From AT&T's security division, the E911 org.bigdata.saxodb.crawler.Document went to Bellcore.
+From AT&T's security division, the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document went to Bellcore.
 
 Bellcore (or BELL COmmunications REsearch) had once been the central
 laboratory of the Bell System.  Bell Labs employees had invented
@@ -5551,7 +5551,7 @@ security technology and consultation for the RBOCs, and the gentleman in
 charge of this effort was Henry M. Kluepfel, a veteran of the Bell System
 who had worked there for twenty-four years.
 
-On October  13, 1988, Dalton passed the E911 org.bigdata.saxodb.crawler.Document to Henry Kluepfel.
+On October  13, 1988, Dalton passed the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document to Henry Kluepfel.
 Kluepfel, a veteran expert witness in telecommunications fraud and
 computer-fraud cases, had certainly seen worse trouble than this.
 He recognized the document for what it was:  a trophy from a hacker break-in.
@@ -5572,12 +5572,12 @@ were always begging Prophet for material they could publish.
 Prophet decided that the heat must be off by this time,
 and that he could safely brag, boast, and strut.
 
-So he sent a copy of the E911 org.bigdata.saxodb.crawler.Document--yet another one--
+So he sent a copy of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document--yet another one--
 from Rich Andrews' Jolnet machine to Knight Lightning's
 BITnet account at the University of Missouri.
 Let's review the fate of the document so far.
 
-0.  The original E911 org.bigdata.saxodb.crawler.Document.  This in the AIMSX system
+0.  The original E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  This in the AIMSX system
 on a mainframe computer in Atlanta, available to hundreds of people,
 but all of them, presumably, BellSouth employees.  An unknown number
 of them may have their own copies of this document, but they are all
@@ -5617,7 +5617,7 @@ underground and embarrass the telcos.  However, Knight Lightning himself
 had contacts in telco security, and sometimes consulted them on material
 he'd received that might be too dicey for publication.
 
-Prophet and  Knight Lightning decided to edit the E911 org.bigdata.saxodb.crawler.Document
+Prophet and  Knight Lightning decided to edit the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 so as to delete most of its identifying traits.  First of all,
 its large "NOT FOR USE OR DISCLOSURE" warning had to go.
 Then there were other matters.  For instance, it listed
@@ -5628,7 +5628,7 @@ would very likely be hassled by phone phreaks,
 which would anger BellSouth no end, and pose a
 definite operational hazard for both Prophet and Phrack.
 
-So Knight Lightning cut the org.bigdata.saxodb.crawler.Document almost in half,
+So Knight Lightning cut the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document almost in half,
 removing the phone numbers and some of the touchier
 and more specific information.  He passed it back
 electronically to Prophet;  Prophet was still nervous,
@@ -5650,12 +5650,12 @@ of the sentencing of "Shadowhawk," an eighteen-year-old Chicago hacker
 who had just been put in federal prison by William J. Cook himself.
 
 And then there were the two articles by "The Eavesdropper."
-The first was the edited E911 org.bigdata.saxodb.crawler.Document, now titled
+The first was the edited E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, now titled
 "Control Office Administration Of Enhanced 911 Services
 for Special Services and Major Account Centers."
 Eavesdropper's second article was a glossary of terms
 explaining the blizzard of telco acronyms and buzzwords
-in the E911 org.bigdata.saxodb.crawler.Document.
+in the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 The hapless document was now distributed, in the usual Phrack routine,
 to a good one hundred and fifty sites.  Not a hundred and fifty PEOPLE,
@@ -5681,7 +5681,7 @@ In 1988, Phrack had been taken over by a new editor,
 1989, however, looked like a bounty year for the underground.
 Knight Lightning and his co-editor Taran King took up the reins again,
 and Phrack flourished throughout 1989.  Atlanta LoD went down hard in
-the summer of 1989, but Phrack rolled merrily on.  Prophet's E911 org.bigdata.saxodb.crawler.Document
+the summer of 1989, but Phrack rolled merrily on.  Prophet's E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 seemed unlikely to cause Phrack any trouble.  By January 1990,
 it had been available in Phrack for almost a year.  Kluepfel and Dalton,
 officers of Bellcore and AT&T  security, had possessed the document
@@ -5717,10 +5717,10 @@ Bellcore and AT&T were now ready to roll.  The consensus
 among telco security--already horrified by the skill of
 the BellSouth intruders --was that the digital underground
 was out of hand.  LoD and Phrack must go.  And in publishing
-Prophet's E911 org.bigdata.saxodb.crawler.Document, Phrack had provided law enforcement
+Prophet's E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, Phrack had provided law enforcement
 with what appeared to be a powerful legal weapon.
 
-Foley confronted Knight Lightning about the  E911 org.bigdata.saxodb.crawler.Document.
+Foley confronted Knight Lightning about the  E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 Knight Lightning was cowed.  He immediately began "cooperating fully"
 in the usual tradition of the digital underground.
@@ -5729,7 +5729,7 @@ He gave Foley a complete run of Phrack, printed out in a set
 of three-ring binders.  He handed over his electronic mailing list
 of Phrack subscribers.  Knight Lightning was grilled for four hours
 by Foley and his cohorts.  Knight Lightning admitted that Prophet
-had passed him the E911 org.bigdata.saxodb.crawler.Document, and he admitted that he had known
+had passed him the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, and he admitted that he had known
 it was stolen booty from a hacker raid on a telephone company.
 Knight Lightning signed a statement to this effect, and agreed,
 in writing, to cooperate with investigators.
@@ -5755,15 +5755,15 @@ The trial of Knight Lightning, which occurred on July 24-27, 1990,
 was the crucial show-trial of the Hacker Crackdown.  We will examine
 the trial at some length in Part Four of this book.
 
-In the meantime, we must continue our dogged pursuit of the E911 org.bigdata.saxodb.crawler.Document.
+In the meantime, we must continue our dogged pursuit of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
-It must have been clear by January 1990 that the E911 org.bigdata.saxodb.crawler.Document,
+It must have been clear by January 1990 that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document,
 in the form Phrack had published it back in February 1989,
 had gone off at the speed of light in at least a hundred
 and fifty different directions.  To attempt to put this
 electronic genie back in the bottle was flatly impossible.
 
-And yet, the E911 org.bigdata.saxodb.crawler.Document was STILL stolen property,
+And yet, the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was STILL stolen property,
 formally and legally speaking.  Any electronic transference
 of this document, by anyone unauthorized to have it,
 could be interpreted as an act of wire fraud.  Interstate
@@ -5771,7 +5771,7 @@ transfer of stolen property, including electronic property,
 was a federal crime.
 
 The Chicago Computer Fraud and Abuse Task Force had been assured
-that the E911 org.bigdata.saxodb.crawler.Document was worth a hefty sum of money.  In fact,
+that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was worth a hefty sum of money.  In fact,
 they had a precise estimate of its worth from BellSouth security personnel:
 $79,449.  A sum of this scale seemed to warrant vigorous prosecution.
 Even if the damage could not be undone, at least this large sum
@@ -5797,10 +5797,10 @@ would supposedly shame the telco squareheads out of their stick-in-the-mud
 attitudes, and perhaps convince them that the Legion of Doom elite were really
 an all-right crew.  The  premiere of "Phoenix Project" was heavily trumpeted
 by Phrack,and "Phoenix Project" carried a complete run of Phrack issues,
-including the E911 org.bigdata.saxodb.crawler.Document as Phrack had published it.
+including the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document as Phrack had published it.
 
 Phoenix Project was only one of many--possibly hundreds--of nodes and boards
-all over America that were in guilty possession of the E911 org.bigdata.saxodb.crawler.Document.
+all over America that were in guilty possession of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 But Phoenix was an outright, unashamed Legion of Doom board.
 Under Mentor's guidance, it was flaunting itself in the face
 of telco security personnel.  Worse yet, it was actively trying
@@ -5865,7 +5865,7 @@ They were in plain clothes: slacks, polo shirts.  They came in,
 and Tim Foley accused Izenberg of belonging to the Legion of Doom.
 
 Izenberg told them that he had never heard of the "Legion of Doom."
-And what about a certain stolen E911 org.bigdata.saxodb.crawler.Document, that posed a direct
+And what about a certain stolen E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, that posed a direct
 threat to the police emergency lines?  Izenberg claimed that he'd
 never heard of that, either.
 
@@ -5977,7 +5977,7 @@ and Shadowhawk himself had gone to jail.
 
 Now it was Phoenix Project's turn.  Phoenix Project postured
 about "legality" and "merely intellectual interest," but it reeked
-of the underground.  It had Phrack on it.  It had the E911 org.bigdata.saxodb.crawler.Document.
+of the underground.  It had Phrack on it.  It had the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 It had a lot of dicey talk about breaking into systems, including some
 bold and reckless stuff about a supposed "decryption service" that Mentor
 and friends were planning to run, to help crack encrypted passwords off
@@ -6068,21 +6068,21 @@ swarming host of civil liberties issues, and gave rise
 to an enduring controversy that was still re-complicating itself,
 and growing in the scope of its implications, a full two years later.
 
-The pursuit of the E911 org.bigdata.saxodb.crawler.Document stopped with the Steve Jackson Games raid.
+The pursuit of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document stopped with the Steve Jackson Games raid.
 As we have seen, there were hundreds, perhaps thousands of computer users
-in America with the E911 org.bigdata.saxodb.crawler.Document in their possession.  Theoretically,
+in America with the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document in their possession.  Theoretically,
 Chicago had a perfect legal right to raid any of these people,
 and could have legally seized the machines of anybody who subscribed to Phrack.
-However, there was no copy of the E911 org.bigdata.saxodb.crawler.Document on Jackson's Illuminati board.
+However, there was no copy of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document on Jackson's Illuminati board.
 And there the Chicago raiders stopped dead; they have not raided anyone since.
 
 It might be assumed that Rich Andrews and Charlie Boykin, who had brought
-the E911 org.bigdata.saxodb.crawler.Document to the attention of telco security, might be spared
+the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document to the attention of telco security, might be spared
 any official suspicion.  But as we have seen, the willingness to
 "cooperate fully" offers little, if any, assurance against federal
 anti-hacker prosecution.
 
-Richard Andrews found himself in deep trouble, thanks to the E911 org.bigdata.saxodb.crawler.Document.
+Richard Andrews found himself in deep trouble, thanks to the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 Andrews lived in Illinois, the native stomping grounds of the Chicago
 Task Force.  On February 3 and 6, both his home and his place of work
 were raided by USSS.  His machines went out the door, too, and he was
@@ -6099,7 +6099,7 @@ Even Charles Boykin, himself an AT&T employee, entered some very hot water.
 By 1990, he'd almost forgotten about the E911 problem he'd reported in
 September 88; in fact, since that date, he'd passed two more security alerts
 to Jerry Dalton, concerning matters that Boykin considered far worse than
-the E911 org.bigdata.saxodb.crawler.Document.
+the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 But by 1990, year of the crackdown, AT&T Corporate Information Security
 was fed up with "Killer."  This machine offered no direct income to AT&T,
@@ -6345,7 +6345,7 @@ large-scale fantasy of the Hacker Crackdown.
 
 No mention was made of the real reason for the search.
 According to their search warrant, the raiders had expected
-to find the E911 org.bigdata.saxodb.crawler.Document stored on Jackson's bulletin board system.
+to find the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document stored on Jackson's bulletin board system.
 But that warrant was sealed; a procedure that most law enforcement agencies
 will use only when lives are demonstrably in danger.  The raiders'
 true motives were not discovered until the Jackson search-warrant
@@ -10119,14 +10119,14 @@ Instead, the prosecution relied heavily on the issue of access device fraud:
 Section 1029 of Title 18, the section from which the Secret Service drew
 its most direct jurisdiction over computer crime.
 
-Neidorf's alleged crimes centered around the E911 org.bigdata.saxodb.crawler.Document.
+Neidorf's alleged crimes centered around the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 He was accused of having entered into a fraudulent scheme with the Prophet,
 who, it will be recalled, was the Atlanta LoD member who had illicitly
-copied the E911 org.bigdata.saxodb.crawler.Document from the BellSouth AIMSX system.
+copied the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document from the BellSouth AIMSX system.
 
 The Prophet himself was also a co-defendant in the Neidorf case,
 part-and-parcel of the alleged "fraud scheme" to "steal" BellSouth's
-E911 org.bigdata.saxodb.crawler.Document (and to pass the org.bigdata.saxodb.crawler.Document across state lines,
+E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document (and to pass the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document across state lines,
 which helped establish the Neidorf trial as a federal case).
 The Prophet, in the spirit of full co-operation, had agreed
 to testify against Neidorf.
@@ -10163,14 +10163,14 @@ in front of a jury of American citizens.
 
 Neidorf, too, had cooperated with investigators.  He had voluntarily
 handed over much of the evidence that had led to his own indictment.
-He had already admitted in writing that he knew that the E911 org.bigdata.saxodb.crawler.Document
+He had already admitted in writing that he knew that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 had been stolen before he had "published" it in Phrack--or, from the
 prosecution's point of view, illegally transported stolen property by wire
 in something purporting to be a "publication."
 
-But even if the "publication" of the E911 org.bigdata.saxodb.crawler.Document was not held to be a crime,
+But even if the "publication" of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was not held to be a crime,
 that wouldn't let Neidorf off the hook.  Neidorf had still received
-the E911 org.bigdata.saxodb.crawler.Document when Prophet had transferred it to him from Rich Andrews'
+the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document when Prophet had transferred it to him from Rich Andrews'
 Jolnet node.  On that occasion, it certainly hadn't been "published"--
 it was hacker booty, pure and simple, transported across state lines.
 
@@ -10345,9 +10345,9 @@ interstate conspiracy to commit fraud.  Zenner wanted to show the
 Summercon tapes to the jury.  It took protracted maneuverings
 by the Task Force to keep the tapes from the jury as "irrelevant."
 
-The E911 org.bigdata.saxodb.crawler.Document was also proving a weak reed.  It had originally
+The E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was also proving a weak reed.  It had originally
 been valued at $79,449.  Unlike Shadowhawk's arcane Artificial Intelligence
-booty, the E911 org.bigdata.saxodb.crawler.Document was not software--it was written in English.
+booty, the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was not software--it was written in English.
 Computer-knowledgeable people found this value--for a twelve-page
 bureaucratic document--frankly incredible.  In his "Crime and Puzzlement"
 manifesto for EFF, Barlow commented:  "We will probably never know how
@@ -10360,10 +10360,10 @@ but only in 1991, long after the Neidorf trial was over.
 
 Kim Megahee, a Southern Bell security manager,
 had arrived at the document's value by simply adding up
-the "costs associated with the production" of the E911 org.bigdata.saxodb.crawler.Document.
+the "costs associated with the production" of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 Those "costs" were as follows:
 
-1.  A technical writer had been hired to research and write the E911 org.bigdata.saxodb.crawler.Document.
+1.  A technical writer had been hired to research and write the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
     200 hours of work, at $35 an hour, cost : $7,000.  A Project Manager had
     overseen the technical writer.  200 hours, at $31 an hour, made: $6,200.
 
@@ -10374,14 +10374,14 @@ Those "costs" were as follows:
 
 4.  A box of order labels cost five dollars.
 
-5.  Preparing a purchase order for the org.bigdata.saxodb.crawler.Document, including typing
+5.  Preparing a purchase order for the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, including typing
     and the obtaining of an authorizing signature from within the
     BellSouth bureaucracy, cost $129.
 
-6.  Printing cost $313.  Mailing the org.bigdata.saxodb.crawler.Document to fifty people
+6.  Printing cost $313.  Mailing the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document to fifty people
     took fifty hours by a clerk, and cost $858.
 
-7.  Placing the org.bigdata.saxodb.crawler.Document in an index took two clerks an hour each,
+7.  Placing the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document in an index took two clerks an hour each,
     totalling $43.
 
 Bureaucratic overhead alone, therefore, was alleged to have cost
@@ -10399,7 +10399,7 @@ Eight hundred fifty dollars for a VT220 computer monitor.
 THIRTY-ONE THOUSAND DOLLARS for a sophisticated VAXstation II computer.
 Six thousand dollars for a computer printer.  TWENTY-TWO THOUSAND DOLLARS
 for a copy of "Interleaf" software.  Two thousand five hundred dollars
-for VMS software.  All this to create the twelve-page org.bigdata.saxodb.crawler.Document.
+for VMS software.  All this to create the twelve-page org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 Plus ten percent of the cost of the software and the hardware, for maintenance.
 (Actually, the ten percent maintenance costs, though mentioned, had been left
@@ -10409,7 +10409,7 @@ Mr. Megahee's letter had been mailed directly to William Cook himself,
 at the office of the Chicago federal attorneys.  The United States Government
 accepted these telco figures without question.
 
-As incredulity mounted, the value of the E911 org.bigdata.saxodb.crawler.Document was officially
+As incredulity mounted, the value of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was officially
 revised downward.  This time, Robert Kibler of BellSouth Security
 estimated the value of the twelve pages as a mere $24,639.05--based,
 purportedly, on "R&D costs."  But this specific estimate,
@@ -10418,49 +10418,49 @@ in fact it provoked open scorn and a torrent of sarcasm.
 
 The financial issues concerning theft of proprietary information
 have always been peculiar.  It could be argued that BellSouth
-had not "lost" its E911 org.bigdata.saxodb.crawler.Document at all in the first place,
+had not "lost" its E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document at all in the first place,
 and therefore had not suffered any monetary damage from this "theft."
 And Sheldon Zenner did in fact argue this at Neidorf's trial--
 that Prophet's raid had not been "theft," but was better understood
 as illicit copying.
 
 The money, however, was not central to anyone's true purposes in this trial.
-It was not Cook's strategy to convince the jury that the E911 org.bigdata.saxodb.crawler.Document
+It was not Cook's strategy to convince the jury that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 was a major act of theft and should be punished for that reason alone.
-His strategy was to argue that the E911 org.bigdata.saxodb.crawler.Document was DANGEROUS.
-It was his intention to establish that the E911 org.bigdata.saxodb.crawler.Document was "a road-map"
+His strategy was to argue that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was DANGEROUS.
+It was his intention to establish that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was "a road-map"
 to the Enhanced 911 System.  Neidorf had deliberately and recklessly
 distributed a dangerous weapon.  Neidorf and the Prophet did not care
-(or perhaps even gloated at the sinister idea) that the E911 org.bigdata.saxodb.crawler.Document
+(or perhaps even gloated at the sinister idea) that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 could be used by hackers to disrupt 911 service, "a life line for every
 person certainly in the Southern Bell region of the United States,
 and indeed, in many communities throughout the United States,"
 in Cook's own words.  Neidorf had put people's lives in danger.
 
-In pre-trial maneuverings, Cook had established that the E911 org.bigdata.saxodb.crawler.Document
+In pre-trial maneuverings, Cook had established that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 was too hot to appear in the public proceedings of the Neidorf trial.
-The JURY ITSELF would not be allowed to ever see this org.bigdata.saxodb.crawler.Document,
+The JURY ITSELF would not be allowed to ever see this org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document,
 lest it slip into the official court records, and thus into the hands
 of the general public, and, thus, somehow, to malicious hackers
 who might lethally abuse it.
 
-Hiding the E911 org.bigdata.saxodb.crawler.Document from the jury may have been a
+Hiding the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document from the jury may have been a
 clever legal maneuver, but it had a severe flaw.  There were,
 in point of fact, hundreds, perhaps thousands, of people,
-already in possession of the E911 org.bigdata.saxodb.crawler.Document, just as Phrack
+already in possession of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, just as Phrack
 had published it.  Its true nature was already obvious
 to a wide section of the interested public (all of whom,
 by the way, were, at least theoretically, party to
 a gigantic wire-fraud conspiracy).  Most everyone
 in the electronic community who had a modem and any
-interest in the Neidorf case already had a copy of the org.bigdata.saxodb.crawler.Document.
+interest in the Neidorf case already had a copy of the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 It had already been available in Phrack for over a year.
 
 People, even quite normal people without any particular
 prurient interest in forbidden knowledge, did not shut their eyes
 in terror at the thought of beholding a "dangerous" document
 from a telephone company.  On the contrary, they tended to trust
-their own judgement and simply read the org.bigdata.saxodb.crawler.Document for themselves.
+their own judgement and simply read the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document for themselves.
 And they were not impressed.
 
 One such person was John Nagle.  Nagle was a  forty-one-year-old
@@ -10480,7 +10480,7 @@ had a great deal to offer society at large, and attempts
 to restrain its growth, or to censor free electronic expression,
 strongly roused his ire.
 
-The Neidorf case, and the E911 org.bigdata.saxodb.crawler.Document, were both being discussed
+The Neidorf case, and the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, were both being discussed
 in detail on the Internet, in an electronic publication called Telecom Digest.
 Nagle, a longtime Internet maven, was a regular reader of Telecom Digest.
 Nagle had never seen a copy of Phrack, but the implications of the case
@@ -10506,11 +10506,11 @@ security clearance.
 Nagle was asked to fly to Illinois to join the defense team.
 
 Having joined the defense as an expert witness, Nagle read the entire
-E911 org.bigdata.saxodb.crawler.Document for himself.  He made his own judgement about its potential
+E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document for himself.  He made his own judgement about its potential
 for menace.
 
 The time has now come for you yourself, the reader, to have a look
-at the E911 org.bigdata.saxodb.crawler.Document.  This six-page piece of work was the pretext
+at the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  This six-page piece of work was the pretext
 for a federal prosecution that could have sent an electronic publisher
 to prison for thirty, or even sixty, years.  It was the pretext
 for the search and seizure of Steve Jackson Games, a legitimate publisher
@@ -10519,9 +10519,9 @@ and seizure of the Mentor's bulletin board, "Phoenix Project,"
 and for the raid on the home of Erik Bloodaxe.  It also had much
 to do with the seizure of Richard Andrews' Jolnet node
 and the shutdown of Charles Boykin's AT&T node.
-The E911 org.bigdata.saxodb.crawler.Document was the single most important piece
+The E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document was the single most important piece
 of evidence in the Hacker Crackdown.  There can be no real
-and legitimate substitute for the org.bigdata.saxodb.crawler.Document itself.
+and legitimate substitute for the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document itself.
 
 
 ==Phrack Inc.==
@@ -11015,21 +11015,21 @@ beyond the ability to ever again read Blake, Whitman, or Tolstoy. . . .
 the document contains little of interest to anyone who is not a student
 of advanced organizational sclerosis."
 
-With the org.bigdata.saxodb.crawler.Document itself to hand, however, exactly as it was published
+With the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document itself to hand, however, exactly as it was published
 (in its six-page edited form) in Phrack, the reader may be able to verify
 a few statements of fact about its nature.  First, there is no software,
-no computer code, in the org.bigdata.saxodb.crawler.Document.  It is not computer-programming language
+no computer code, in the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  It is not computer-programming language
 like FORTRAN or C++, it is English; all the sentences have nouns and verbs
 and punctuation.  It does not explain how to break into the E911 system.
 It does not suggest ways to destroy or damage the E911 system.
 
-There are no access codes in the org.bigdata.saxodb.crawler.Document.  There are no computer passwords.
+There are no access codes in the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  There are no computer passwords.
 It does not explain how to steal long distance service.  It does not explain
 how to break in to telco switching stations.  There is nothing in it about
 using a personal computer or a modem for any purpose at all, good or bad.
 
 Close study will reveal that this document is not about machinery.
-The E911 org.bigdata.saxodb.crawler.Document is about ADMINISTRATION. It describes how one creates
+The E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document is about ADMINISTRATION. It describes how one creates
 and administers certain units of telco bureaucracy:
 Special Service Centers and Major Account Centers (SSC/MAC).
 It describes how these centers should distribute responsibility
@@ -11039,13 +11039,13 @@ who answers customer complaints, who screens calls,
 who reports equipment failures, who answers those reports,
 who handles maintenance, who chairs subcommittees,
 who gives orders, who follows orders, WHO tells WHOM what to do.
-The org.bigdata.saxodb.crawler.Document is not a "roadmap" to computers.
-The org.bigdata.saxodb.crawler.Document is a roadmap to PEOPLE.
+The org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document is not a "roadmap" to computers.
+The org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document is a roadmap to PEOPLE.
 
-As an aid to breaking into computer systems, the org.bigdata.saxodb.crawler.Document is USELESS.
-As an aid to harassing and deceiving telco people, however, the org.bigdata.saxodb.crawler.Document
+As an aid to breaking into computer systems, the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document is USELESS.
+As an aid to harassing and deceiving telco people, however, the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 might prove handy (especially with its Glossary, which I have not included).
-An intense and protracted study of this org.bigdata.saxodb.crawler.Document and its Glossary,
+An intense and protracted study of this org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document and its Glossary,
 combined with many other such documents, might teach one to speak like
 a telco employee.  And telco people live by SPEECH--they live by phone
 communication.  If you can mimic their language over the phone,
@@ -11073,20 +11073,20 @@ highly sensitive and purportedly worth tens of thousands of dollars.
 
 #
 
-John Nagle read the E911 org.bigdata.saxodb.crawler.Document.  He drew his own conclusions.
+John Nagle read the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  He drew his own conclusions.
 And he presented Zenner and his defense team with an overflowing box
 of similar material, drawn mostly from Stanford University's
 engineering libraries.  During the trial, the defense team--Zenner,
 half-a-dozen other attorneys, Nagle, Neidorf, and computer-security
-expert Dorothy Denning, all pored over the E911 org.bigdata.saxodb.crawler.Document line-by-line.
+expert Dorothy Denning, all pored over the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document line-by-line.
 
 On the afternoon of July 25, 1990, Zenner began to cross-examine
 a woman named Billie Williams, a service manager for Southern Bell
-in Atlanta.  Ms. Williams had been responsible for the E911 org.bigdata.saxodb.crawler.Document.
+in Atlanta.  Ms. Williams had been responsible for the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 (She was not its author--its original "author" was a Southern Bell
 staff manager named Richard Helms.  However, Mr. Helms should not bear
 the entire blame; many telco staff people and maintenance personnel
-had amended the org.bigdata.saxodb.crawler.Document.  It had not been so much "written" by a
+had amended the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  It had not been so much "written" by a
 single author, as built by committee out of concrete-blocks of jargon.)
 
 Ms. Williams had been called as a witness for the prosecution,
@@ -11094,7 +11094,7 @@ and had gamely tried to explain the basic technical structure
 of the E911 system, aided by charts.
 
 Now it was Zenner's turn.  He first established that the
-"proprietary stamp" that BellSouth had used on the E911 org.bigdata.saxodb.crawler.Document
+"proprietary stamp" that BellSouth had used on the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 was stamped on EVERY SINGLE DOCUMENT that BellSouth wrote--
 THOUSANDS of documents.  "We do not publish anything other
 than for our own company," Ms. Williams explained.
@@ -11119,20 +11119,20 @@ in fact, public.
 
 Ms. Williams denied this.
 
-Zenner now pointed out that the E911 org.bigdata.saxodb.crawler.Document as published in Phrack
-was only half the size of the original E911 org.bigdata.saxodb.crawler.Document (as Prophet
+Zenner now pointed out that the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document as published in Phrack
+was only half the size of the original E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document (as Prophet
 had purloined it).  Half of it had been deleted--edited by Neidorf.
 
 Ms. Williams countered that "Most of the information that is
 in the text file is redundant."
 
-Zenner continued to probe.  Exactly what bits of knowledge in the org.bigdata.saxodb.crawler.Document
+Zenner continued to probe.  Exactly what bits of knowledge in the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 were, in fact, unknown to the public?  Locations of E911 computers?
 Phone numbers for telco personnel?  Ongoing maintenance subcommittees?
 Hadn't Neidorf removed much of this?
 
 Then he pounced.  "Are you familiar with Bellcore Technical Reference
-org.bigdata.saxodb.crawler.Document TR-TSY-000350?"  It was, Zenner explained, officially titled
+org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document TR-TSY-000350?"  It was, Zenner explained, officially titled
 "E911 Public Safety Answering Point Interface Between 1-1AESS Switch
 and Customer Premises Equipment."  It contained highly detailed
 and specific technical information about the E911 System.
@@ -11174,11 +11174,11 @@ your question to me."
 At this point, the prosecution's case had been gutshot.
 Ms. Williams was distressed.  Her confusion was quite genuine.
 Phrack had not been taken from any publicly available Bellcore document.
-Phrack's E911 org.bigdata.saxodb.crawler.Document had been stolen from her own company's computers,
+Phrack's E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document had been stolen from her own company's computers,
 from her own company's text files, that her own colleagues had written,
 and revised, with much labor.
 
-But the "value" of the org.bigdata.saxodb.crawler.Document had been blown to smithereens.
+But the "value" of the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document had been blown to smithereens.
 It wasn't worth eighty grand.  According to Bellcore it was worth
 thirteen bucks.  And the looming menace that it supposedly posed
 had been reduced in instants to a scarecrow.  Bellcore itself
@@ -11214,7 +11214,7 @@ on 911 service and a glossary far more extensive than Phrack's.
 
 The trial rumbled on, somehow, through its own momentum.
 Tim Foley testified about his interrogations of Neidorf.
-Neidorf's written admission that he had known the E911 org.bigdata.saxodb.crawler.Document
+Neidorf's written admission that he had known the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 was pilfered was officially read into the court record.
 
 An interesting side issue came up:  "Terminus" had once passed Neidorf
@@ -11241,7 +11241,7 @@ on the bugging and tapping activities of police.
 
 The Secret Service, in the person of Tim Foley, had served Richard Andrews
 with a federal grand jury subpoena, in their pursuit of Prophet,
-the E911 org.bigdata.saxodb.crawler.Document, and the Terminus software ring.  But according to
+the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document, and the Terminus software ring.  But according to
 the Electronic Communications Privacy Act, a "provider of remote
 computing service" was legally entitled to "prior notice" from
 the government if a subpoena was used.  Richard Andrews and his
@@ -11261,8 +11261,8 @@ and might, perhaps, be called to account.
 
 Zenner, in any case, did not really need the ECPA.
 Instead, he grilled Foley on the glaring contradictions in
-the supposed value of the E911 org.bigdata.saxodb.crawler.Document.  He also brought up
-the embarrassing fact that the supposedly red-hot E911 org.bigdata.saxodb.crawler.Document
+the supposed value of the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.  He also brought up
+the embarrassing fact that the supposedly red-hot E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document
 had been sitting around for months, in Jolnet, with Kluepfel's knowledge,
 while Kluepfel had done nothing about it.
 
@@ -11273,7 +11273,7 @@ scheme with Neidorf.)  In Atlanta, the Prophet had already
 pled guilty to one charge of conspiracy, one charge of wire fraud
 and one charge of interstate transportation of stolen property.
 The wire fraud charge, and the stolen property charge,
-were both directly based on the E911 org.bigdata.saxodb.crawler.Document.
+were both directly based on the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document.
 
 The twenty-year-old Prophet proved a sorry customer,
 answering questions politely but in a barely audible mumble,
@@ -11294,7 +11294,7 @@ Prophet confirmed the basic facts of his hacker career.
 He was a member of the Legion of Doom.  He had abused codes,
 he had broken into switching stations and re-routed calls,
 he had hung out on pirate bulletin boards.  He had raided
-the BellSouth AIMSX computer, copied the E911 org.bigdata.saxodb.crawler.Document,
+the BellSouth AIMSX computer, copied the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document,
 stored it on Jolnet, mailed it to Neidorf.  He and Neidorf
 had edited it, and Neidorf had known where it came from.
 
@@ -11356,7 +11356,7 @@ without a wince and a shake of the head.  It left the public credibility
 of the crackdown agents in tatters.
 
 The crackdown, in fact, continued, however.  Those two charges
-against Prophet, which had been based on the E911 org.bigdata.saxodb.crawler.Document,
+against Prophet, which had been based on the E911 org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document,
 were quietly forgotten at his sentencing--even though Prophet
 had already pled guilty to them.  Georgia federal prosecutors
 strongly argued for jail time for the Atlanta Three, insisting on
