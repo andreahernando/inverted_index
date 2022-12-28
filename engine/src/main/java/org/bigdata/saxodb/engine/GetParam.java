@@ -10,7 +10,7 @@ public class GetParam implements Route {
     @Override
     public Object handle(Request request, Response response) throws Exception {
 
-        String nameContent = request.params("param");
+        String nameContent = request.params("words");
 
         String dbName = "C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
 

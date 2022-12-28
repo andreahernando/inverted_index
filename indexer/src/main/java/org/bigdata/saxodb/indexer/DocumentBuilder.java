@@ -14,8 +14,10 @@ public class DocumentBuilder extends Document {
 
     public Document build(String path) throws FileNotFoundException {
         //String [] filesDocument = new File(path).list();
-        Document doc = new Document().setText(filereader.read(new File(path)));
+        Document doc = new Document();
+        doc.setText(filereader.read(new File(path)));
+        //Document doc = new Document().setText(filereader.read(new File(path)));
 
-        return new Document();
+        return doc;
     }
 }

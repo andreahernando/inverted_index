@@ -1,6 +1,5 @@
 package org.bigdata.saxodb.crawler;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Timer;
@@ -33,7 +32,7 @@ public class Main {
                 }
             }
         };
-        timer.schedule(timertask,2000,6000);
+        timer.schedule(timertask,2000,60000);
     }
 
 
