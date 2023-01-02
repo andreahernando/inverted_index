@@ -4,14 +4,22 @@ import spark.Request;
 import spark.Response;
 import spark.Route;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.Objects;
 
 public class GetStats implements Route {
     @Override
     public Object handle(Request request, Response response) throws Exception {
-        if (Objects.equals(request.params(":type"), "metadata")) {
-            return metadataStats(request);
-        } else if (Objects.equals(request.params(":type"), "documents")) {
+        String stats = request.params(":type");
+        String dbName = "../SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
+        String connectionURL = "jdbc:sqlite:" + dbName;
+
+        if (Objects.equals(stats, "metadata")) {
+            return metadataStats(connectionURL);
+        } else if (Objects.equals(stats, "documents")) {
             return documentStats(request);
         }
         return Html.begin()
@@ -32,16 +40,24 @@ public class GetStats implements Route {
         return result;
     }
 
-    private Object metadataStats (Request request) {
-        String result = null;
-        try {
-            String type = request.params("metadata");
-            result = Html.begin()
-                    + Html.tag("h1", "Se vino por este de aquí")
+    private Object metadataStats (String connectionURL) {
+        try (Connection conn = DriverManager.getConnection(connectionURL)) {
+            Statement stmt = conn.createStatement();
+
+            String author = "author";
+            String query = "SELECT author COUNT(author) FROM Metadata GROUP BY author HAVING COUNT(author) > 1";
+
+            ResultSet rs = stmt.executeQuery(query);
+            String request = rs.getString(author);
+
+            return Html.begin()
+                    + Html.tag("h1", request)
                     + Html.end();
-        } catch (Exception e) {
-            e.printStackTrace();
+
+        }  catch (Exception e){
+            return Html.begin()
+                    + Html.tag("h1", e.getMessage())
+                    + Html.end();
         }
-        return result;
     }
 }
