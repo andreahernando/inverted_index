@@ -12,7 +12,7 @@ public class GetDocuments implements Route {
     public Object handle(Request request, Response response) throws Exception {
         String word = request.params("word");
         MapDeserialization mapDeserialization = new MapDeserialization();
-        Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
+        Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("../SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
 
 
 

@@ -12,7 +12,7 @@ public class GetParam implements Route {
 
         String nameContent = request.params("words");
 
-        String dbName = "C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
+        String dbName = "../SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
 
 
         // URL de conexión a la base de datos
