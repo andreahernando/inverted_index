@@ -23,7 +23,7 @@ public class GetDocuments implements Route {
         try {
             TreeSet<String> result = (TreeSet)inverted.get(word);
             String url = "jdbc:sqlite:C:\\Users\\andre\\IdeaProjects\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
-            String sql = "SELECT * FROM Metadata WHERE id = ? AND author >= ?";
+            String sql = "SELECT * FROM Metadata WHERE id = ?";
             Iterator<String> iterator = result.iterator();
 
             ArrayList resultados;
@@ -33,7 +33,7 @@ public class GetDocuments implements Route {
                 Connection conn = DriverManager.getConnection(url);
                 PreparedStatement stmt = conn.prepareStatement(sql);
                 stmt.setString(1, element);
-                stmt.setString(2, author1);
+                //stmt.setString(2, author1);
                 ResultSet rs = stmt.executeQuery();
                 parcial = new ArrayList();
                 if (rs.next()) {
