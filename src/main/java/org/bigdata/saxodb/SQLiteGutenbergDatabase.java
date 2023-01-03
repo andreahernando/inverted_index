@@ -35,6 +35,7 @@ public class SQLiteGutenbergDatabase {
 
     private void createTable(Statement statement) throws SQLException {
         statement.execute("CREATE TABLE IF NOT EXISTS Metadata (" +
+                "id TEXT,"+
                 "title TEXT," +
                 "author TEXT," +
                 "releaseDate TEXT," +

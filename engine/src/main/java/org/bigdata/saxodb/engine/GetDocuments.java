@@ -1,38 +1,54 @@
 package org.bigdata.saxodb.engine;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeSet;
 import spark.Request;
 import spark.Response;
 import spark.Route;
 
-import java.util.Map;
-import java.util.TreeSet;
-
 public class GetDocuments implements Route {
     @Override
     public Object handle(Request request, Response response) throws Exception {
-        String word = request.params("word");
+        String word = request.params(":word");
+        String author1 = request.queryParams("author");
         MapDeserialization mapDeserialization = new MapDeserialization();
-        Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("../SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
-
-
-
+        Map inverted = mapDeserialization.GetMap("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
 
         try {
-            String result = String.valueOf(inverted.get(word));
-            if (result == null) {
-                result = "Esa palabra no está en nuestra base de datos";
-                return Html.begin()
-                        + Html.tag("h1", result)
-                        + Html.end();
+            TreeSet<String> result = (TreeSet)inverted.get(word);
+            String url = "jdbc:sqlite:C:\\Users\\andre\\IdeaProjects\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
+            String sql = "SELECT * FROM Metadata WHERE id = ? AND author >= ?";
+            Iterator<String> iterator = result.iterator();
+
+            ArrayList resultados;
+            ArrayList parcial;
+            for(resultados = new ArrayList(); iterator.hasNext(); resultados.add(parcial)) {
+                String element = (String)iterator.next();
+                Connection conn = DriverManager.getConnection(url);
+                PreparedStatement stmt = conn.prepareStatement(sql);
+                stmt.setString(1, element);
+                stmt.setString(2, author1);
+                ResultSet rs = stmt.executeQuery();
+                parcial = new ArrayList();
+                if (rs.next()) {
+                    parcial.add("Title: " + rs.getString("title"));
+                    parcial.add(rs.getString("author"));
+                    parcial.add(rs.getString("language"));
+                    parcial.add(rs.getString("releaseDate"));
+                    parcial.add(rs.getString("postingDate"));
+                }
             }
-            return Html.begin()
-                    + Html.tag("h1", result)
-                    + Html.end();
+
+            return resultados;
         } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
-        return null;
-
-
     }
 }

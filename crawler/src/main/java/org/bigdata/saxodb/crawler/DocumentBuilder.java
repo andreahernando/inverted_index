@@ -10,6 +10,8 @@ import java.util.List;
 public class DocumentBuilder implements Builder{
     private String[] textParts;
     private String[] metadata_list;
+    public IDGenerator id = new IDGenerator();
+
 
     public DocumentBuilder(String text) {
         textParts = text.split("\\*\\*\\*");
@@ -34,7 +36,7 @@ public class DocumentBuilder implements Builder{
             }
         }
         finalMetadata.forEach(System.out::println);
-        return new Metadata(finalMetadata.get(0), finalMetadata.get(1),finalMetadata.get(2)
+        return new Metadata(String.valueOf(id.generateID()), finalMetadata.get(0), finalMetadata.get(1),finalMetadata.get(2)
         ,finalMetadata.get(3),finalMetadata.get(finalMetadata.size()-1));
 
 
