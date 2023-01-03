@@ -18,11 +18,11 @@ public class GetDocuments implements Route {
         String word = request.params(":word");
         String author1 = request.queryParams("author");
         MapDeserialization mapDeserialization = new MapDeserialization();
-        Map inverted = mapDeserialization.GetMap("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
+        Map inverted = mapDeserialization.GetMap("..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\inverted.data");
 
         try {
             TreeSet<String> result = (TreeSet)inverted.get(word);
-            String url = "jdbc:sqlite:C:\\Users\\andre\\IdeaProjects\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
+            String url = "jdbc:sqlite:..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
             String sql = "SELECT * FROM Metadata WHERE id = ?";
             Iterator<String> iterator = result.iterator();
 

@@ -18,7 +18,7 @@ public class InvertedIndexDatamart implements Datamart{
         }
 
         // Save the byte array to a file
-        try (FileOutputStream fos = new FileOutputStream("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
+        try (FileOutputStream fos = new FileOutputStream("..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\inverted.data");
              BufferedOutputStream bos = new BufferedOutputStream(fos)) {
             bos.write(data);
         } catch (IOException e) {

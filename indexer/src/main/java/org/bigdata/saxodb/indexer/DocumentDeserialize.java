@@ -9,7 +9,7 @@ import java.util.List;
 
 public class DocumentDeserialize {
 
-    public static final File DOCUMENT_DIRECTORY = new File("C:\\Users\\andre\\IdeaProjects\\SaxoDB\\crawler\\datalake");
+    public static final File DOCUMENT_DIRECTORY = new File("..\\SaxoDB\\crawler\\datalake");
 
     public List<Document> getDocument() throws FileNotFoundException {
         List<Document> documents = new ArrayList<>();

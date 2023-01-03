@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class SQLiteGutenbergDatabase {
     private Connection conn;
     public Statement init() throws SQLException {
-        String dbPath = "C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
+        String dbPath = "..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
         conn = connect(dbPath);
         Statement statement = conn.createStatement();
         createTable(statement);

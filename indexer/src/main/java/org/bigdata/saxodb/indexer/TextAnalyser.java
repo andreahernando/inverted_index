@@ -23,7 +23,7 @@ public class TextAnalyser implements Analyser{
     }
 
     public String clean(String word) throws IOException {
-        List<String> stopwords = Files.readAllLines(Paths.get("C:\\Users\\andre\\Desktop\\Andre Uni\\Tercero\\BD\\english_stopwords.txt"));
+        List<String> stopwords = Files.readAllLines(Paths.get("..\\SaxoDB\\indexer\\english_stopwords.txt"));
         if (stopwords.contains(word)) {
             return "";
         }

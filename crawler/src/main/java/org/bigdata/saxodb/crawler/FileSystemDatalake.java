@@ -10,7 +10,7 @@ public class FileSystemDatalake implements Datalake {
     @Override
     public void store(Document document) throws IOException {
         String formatdate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd HHmm"));
-        FileWriter myWriter = new FileWriter("C:\\Users\\andre\\IdeaProjects\\SaxoDB\\crawler\\datalake\\" + String.valueOf(formatdate) +".txt");
+        FileWriter myWriter = new FileWriter("..\\SaxoDB\\crawler\\datalake\\" + String.valueOf(formatdate) +".txt");
         myWriter.write(document.getText());
         myWriter.close();
 

@@ -14,7 +14,7 @@ public class GetStats implements Route {
     @Override
     public Object handle(Request request, Response response) throws Exception {
         String stats = request.params(":type");
-        String dbName = "../SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
+        String dbName = "..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
         String connectionURL = "jdbc:sqlite:" + dbName;
 
         if (Objects.equals(stats, "author")) {
@@ -30,7 +30,7 @@ public class GetStats implements Route {
     public String wordStats() throws Exception {
         try {
             MapDeserialization mapDeserialization = new MapDeserialization();
-            Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
+            Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\inverted.data");
             List<TreeSet<String>> longestList = new ArrayList<>();
             longestList.add(new TreeSet<>());
             List<String> palabras = new ArrayList<>();
