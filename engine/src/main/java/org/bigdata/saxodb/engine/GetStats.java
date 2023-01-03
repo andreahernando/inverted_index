@@ -8,7 +8,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import java.util.Objects;
+import java.util.*;
 
 public class GetStats implements Route {
     @Override
@@ -17,35 +17,52 @@ public class GetStats implements Route {
         String dbName = "../SaxoDB/src/main/java/org/bigdata/saxodb/table.db";
         String connectionURL = "jdbc:sqlite:" + dbName;
 
-        if (Objects.equals(stats, "metadata")) {
-            return metadataStats(connectionURL);
-        } else if (Objects.equals(stats, "documents")) {
-            return documentStats(request);
+        if (Objects.equals(stats, "author")) {
+            return authorStats(connectionURL);
+        } else if (Objects.equals(stats, "word")) {
+            return wordStats();
         }
         return Html.begin()
                 + Html.tag("h1", "404 not found")
                 + Html.end();
     }
 
-    public String documentStats(Request request) throws Exception {
-        String result = null;
+    public String wordStats() throws Exception {
         try {
-            String type = request.params("documents");
-            result = Html.begin()
-                    + Html.tag("h1", "Entró por aquí")
+            MapDeserialization mapDeserialization = new MapDeserialization();
+            Map<String, TreeSet<String>> inverted = mapDeserialization.GetMap("C:/Users/andre/IdeaProjects/SaxoDB/src/main/java/org/bigdata/saxodb/inverted.data");
+            List<TreeSet<String>> longestList = new ArrayList<>();
+            longestList.add(new TreeSet<>());
+            List<String> palabras = new ArrayList<>();
+            for (Iterator<Map.Entry<String, TreeSet<String>>> entradas = inverted.entrySet().iterator();entradas.hasNext();) {
+                Map.Entry<String, TreeSet<String>> entrada = entradas.next();
+                if(entrada.getValue().size() > longestList.get(0).size()) {
+                    longestList.clear();
+                    palabras.clear();
+                    longestList.add(entrada.getValue());
+                    palabras.add(entrada.getKey());
+                } else if (entrada.getValue().size() == longestList.get(0).size()) {
+                    longestList.add(entrada.getValue());
+                    palabras.add(entrada.getKey());
+                }
+            }
+            return Html.begin()
+                    + Html.tag("h1", String.valueOf(palabras))
                     + Html.end();
-        } catch (Exception e) {
-            e.printStackTrace();
+
+        } catch (Exception e){
+            return Html.begin()
+                    + Html.tag("h1", e.getMessage())
+                    + Html.end();
         }
-        return result;
     }
 
-    private Object metadataStats (String connectionURL) {
+    private Object authorStats (String connectionURL) {
         try (Connection conn = DriverManager.getConnection(connectionURL)) {
             Statement stmt = conn.createStatement();
 
             String author = "author";
-            String query = "SELECT author COUNT(author) FROM Metadata GROUP BY author HAVING COUNT(author) > 1";
+            String query = "SELECT author, COUNT(author) FROM Metadata GROUP BY author HAVING COUNT(author) > 1";
 
             ResultSet rs = stmt.executeQuery(query);
             String request = rs.getString(author);
