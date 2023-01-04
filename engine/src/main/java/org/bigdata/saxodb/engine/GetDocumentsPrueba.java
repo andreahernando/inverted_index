@@ -1,49 +1,45 @@
 package org.bigdata.saxodb.engine;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.TreeSet;
 import spark.Request;
 import spark.Response;
 import spark.Route;
+import java.sql.*;
+import java.util.*;
 
-public class GetDocuments implements Route {
+public class GetDocumentsPrueba implements Route {
     @Override
     public Object handle(Request request, Response response) throws Exception {
         String word = request.params(":word");
-        String author1 = request.queryParams("author");
+        String author1 = request.params("author");
         MapDeserialization mapDeserialization = new MapDeserialization();
         Map inverted = mapDeserialization.GetMap("..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\inverted.data");
 
-        ArrayList resultados;
         try {
-            TreeSet<String> result = (TreeSet) inverted.get(word);
+            TreeSet<String> result = (TreeSet)inverted.get(word);
             String url = "jdbc:sqlite:..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
             String sql = "SELECT * FROM Metadata WHERE id = ? AND author = ?";
 
             Iterator<String> iterator = result.iterator();
+            List<String> results = new ArrayList<>();
 
-            for (resultados = new ArrayList(); iterator.hasNext(); ) {
-                String element = (String) iterator.next();
+            while(iterator.hasNext()) {
+                String element = iterator.next();
                 Connection conn = DriverManager.getConnection(url);
                 PreparedStatement stmt = conn.prepareStatement(sql);
-                stmt.setString(1, element);
-                stmt.setString(2, author1);
+                stmt.setString(1,element);
+                stmt.setString(2, "August Strindberg");
                 ResultSet rs = stmt.executeQuery();
+                results.add(rs.getString("title"));
 
-                if (rs.next()) {
-                    resultados.add("Title: " + rs.getString("title") + "\nAuthor: " + rs.getString("author") + "\nLanguage: " + rs.getString("language"));
-                }
             }
 
 
-        return resultados;
-    } catch (Exception e) {
+            return Html.begin()
+                    + Html.tag("h1", String.valueOf(results))
+                    + Html.tag("h2", author1)
+                    + Html.end();
+
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }

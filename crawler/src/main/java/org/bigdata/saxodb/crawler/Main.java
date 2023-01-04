@@ -2,6 +2,7 @@ package org.bigdata.saxodb.crawler;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -29,6 +30,8 @@ public class Main {
                         System.exit(0);
                     }
 
+                } catch (ParseException e) {
+                    e.printStackTrace();
                 }
             }
         };

@@ -1,5 +1,7 @@
 package org.bigdata.saxodb;
 
+import java.util.Date;
+
 public class Metadata {
     public String id;
     public String title;
