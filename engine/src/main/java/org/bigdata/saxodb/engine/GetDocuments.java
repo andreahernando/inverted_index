@@ -37,12 +37,12 @@ public class GetDocuments implements Route {
                 ResultSet rs = stmt.executeQuery();
 
                 if (rs.next()) {
-                    resultados.add("Title: " + rs.getString("title") + "\nAuthor: " + rs.getString("author") + "\nLanguage: " + rs.getString("language"));
+                    resultados.add("{\"title\": \"" + rs.getString("title") + "\", \"author\": \"" + rs.getString("author") + "\", \"language\": \"" + rs.getString("language") + "\"}");
                 }
             }
 
 
-        return resultados;
+        return resultados.get(0);
     } catch (Exception e) {
             e.printStackTrace();
             return null;
