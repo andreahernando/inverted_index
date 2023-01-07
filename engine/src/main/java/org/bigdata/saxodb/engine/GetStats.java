@@ -24,9 +24,7 @@ public class GetStats implements Route {
                 return wordStats();
             }
         } catch (Exception e) {
-            return Html.begin()
-                    + Html.tag("h1", e.getMessage())
-                    + Html.end();
+            return e.getMessage();
         }
         return null;
     }
@@ -48,9 +46,7 @@ public class GetStats implements Route {
             return resultados;
 
         } catch (Exception e){
-            return Html.begin()
-                    + Html.tag("h1", e.getMessage())
-                    + Html.end();
+            return e.getMessage();
         }
     }
 
@@ -76,9 +72,7 @@ public class GetStats implements Route {
             return "{\"words\": " + palabras + " ,\"appearances\": " + longestList.get(longestList.size() - 1).size() + "}";
 
         } catch (Exception e){
-            return Html.begin()
-                    + Html.tag("h1", e.getMessage())
-                    + Html.end();
+            return e.getMessage();
         }
     }
 }
