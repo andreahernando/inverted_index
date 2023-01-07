@@ -17,6 +17,8 @@ public class GetDocuments implements Route {
     public Object handle(Request request, Response response) throws Exception {
         String word = request.params(":word");
         String author1 = request.queryParams("author");
+        String from = request.queryParams("from");
+        String to = request.queryParams("to");
         MapDeserialization mapDeserialization = new MapDeserialization();
         Map inverted = mapDeserialization.GetMap("..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\inverted.data");
 
@@ -24,7 +26,7 @@ public class GetDocuments implements Route {
         try {
             TreeSet<String> result = (TreeSet) inverted.get(word);
             String url = "jdbc:sqlite:..\\SaxoDB\\src\\main\\java\\org\\bigdata\\saxodb\\table.db";
-            String sql = "SELECT * FROM Metadata WHERE id = ? AND author = ?";
+            String sql = "SELECT * FROM Metadata WHERE id = ? AND author = ? AND CAST (releaseDate AS date ) BETWEEN CAST(? AS date) AND CAST(? AS date)";
 
             Iterator<String> iterator = result.iterator();
 
@@ -34,6 +36,8 @@ public class GetDocuments implements Route {
                 PreparedStatement stmt = conn.prepareStatement(sql);
                 stmt.setString(1, element);
                 stmt.setString(2, author1);
+                stmt.setString(3, from);
+                stmt.setString(4, to);
                 ResultSet rs = stmt.executeQuery();
 
                 if (rs.next()) {
@@ -42,7 +46,7 @@ public class GetDocuments implements Route {
             }
 
 
-        return resultados.get(0);
+        return resultados;
     } catch (Exception e) {
             e.printStackTrace();
             return null;

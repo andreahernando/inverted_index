@@ -39,7 +39,6 @@ public class SQLiteGutenbergDatabase {
                 "title TEXT," +
                 "author TEXT," +
                 "releaseDate TEXT," +
-                "postingDate TEXT," +
                 "language TEXT" +
                 ");");
     }

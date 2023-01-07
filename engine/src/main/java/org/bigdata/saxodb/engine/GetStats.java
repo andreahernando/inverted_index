@@ -37,11 +37,15 @@ public class GetStats implements Route {
 
             String query = "SELECT author, COUNT(author) as count FROM Metadata GROUP BY author HAVING COUNT(author) > 1";
 
+            ArrayList resultados = new ArrayList<>();
             ResultSet rs = stmt.executeQuery(query);
             String author_request = rs.getString("author");
             String count_request = rs.getString("count");
+            if (rs.next()) {
+                resultados.add("{\"authors\": \"" + author_request + "\" ,\"occurrences\": " + count_request + "}");
+            }
 
-            return "{\"authors\": \"" + author_request + "\" ,\"occurrences\": " + count_request + "}";
+            return resultados;
 
         } catch (Exception e){
             return Html.begin()
