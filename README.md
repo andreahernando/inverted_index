@@ -25,16 +25,14 @@ This function builds a word-level inverted index from a collection of documents.
 
 ### CRAWLER DEVELOPMENT
 
-The Crawler module download a document every minute from Project Gutenberg and store it in the Document Repository. The organization of the Document Repository is chronological with a folder for each date using the format yyyymmdd. This part have been developed using Java.
+The Crawler module download a document every minute from Project Gutenberg and store it in the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document Repository. The organization of the org.bigdata.saxodb.crawler.org.bigdata.saxodb.indexer.org.bigdata.saxodb.Document Repository is chronological with a folder for each date using the format yyyymmdd. This part have been developed using Java.
 
 ### SEARCH ENGINE
-
-It consists in developing the search engine API. To develop this module, we have build a mock word-level inverted index, design API inputs (parameters) and outputs (jsons), and deserialize the index from disk. As the previous part, this has also been performed using Java.
 
 ## THE WORK ENVIRONMENT
 
 To develop the inverted index task we used Pycharm, from JetBrains, using Python 3.9 and 3.10.
-To develop the crawler development, search engine, and future tasks, we will be using IntelliJ IDEA, from JetBrains, with Java in its 11th version.
+To develop the crawler development we used IntelliJ IDEA, from JetBrains, using Java in its 11th version.
 
 ## THE DEVELOPMENT TEAM
 

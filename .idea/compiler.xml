@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Crawler_api" />
         <module name="indexer" />
         <module name="crawler" />
+        <module name="common" />
         <module name="engine" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

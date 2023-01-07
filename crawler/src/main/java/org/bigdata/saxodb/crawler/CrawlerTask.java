@@ -1,5 +1,13 @@
 package org.bigdata.saxodb.crawler;
 
+
+import org.bigdata.saxodb.Document;
+import org.bigdata.saxodb.SQLiteGutenbergDatabase;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.text.ParseException;
+
 public class CrawlerTask {
     private final Downloader downloader;
     private final Parser parser;
@@ -11,8 +19,14 @@ public class CrawlerTask {
         this.datalake = datalake;
     }
 
-    public void download(String id) {
-        datalake.store(parser.parse(downloader.download(id)));
+    public void download(String id) throws IOException, SQLException, ParseException {
+        SQLiteGutenbergDatabase sqLiteGutenbergDatabase = new SQLiteGutenbergDatabase();
+        sqLiteGutenbergDatabase.init();
+        String text = downloader.download(id);
+        Document doc = new DocumentBuilder(text).build();
+        sqLiteGutenbergDatabase.insertMetadata(doc.getMetadata());
+        datalake.store(doc);
+
 
     }
 
